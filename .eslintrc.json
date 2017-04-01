@@ -1,0 +1,6 @@
+{
+  "extends": "google",
+  "rules": {
+      "react/jsx-sort-prop-types": 0
+  }
+}

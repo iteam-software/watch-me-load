@@ -1,0 +1,36 @@
+{
+  "name": "watch-me-load",
+  "version": "0.0.1",
+  "description": "Github styled way of visualizing client side navigation events.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "NO TEST",
+    "build": "./node_modules/.bin/webpack --config ./webpack.config.js --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iteam-consulting/watch-me-load.git"
+  },
+  "keywords": [
+    "client-side",
+    "navigation",
+    "loading",
+    "indicator"
+  ],
+  "author": "software@iteamnm.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iteam-consulting/watch-me-load/issues"
+  },
+  "homepage": "https://github.com/iteam-consulting/watch-me-load#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "eslint": "^3.19.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.3.2"
+  }
+}
