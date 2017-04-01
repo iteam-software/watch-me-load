@@ -4,7 +4,7 @@
   "description": "Github styled way of visualizing client side navigation events.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "NO TEST",
+    "test": "jest",
     "build": "./node_modules/.bin/webpack --config ./webpack.config.js --colors"
   },
   "repository": {
@@ -26,11 +26,16 @@
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
     "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.19.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "regenerator-runtime": "^0.10.3",
     "webpack": "^2.3.2"
   }
 }
