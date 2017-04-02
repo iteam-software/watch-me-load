@@ -1,5 +1,6 @@
 language: node
 install:
+  - npm install -g npm@3
   - npm install
 script:
   - npm run build
