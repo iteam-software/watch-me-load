@@ -1,4 +1,6 @@
 # Watch Me Load
+[![Build Status](https://travis-ci.org/iteam-consulting/watch-me-load.svg?branch=master)](https://travis-ci.org/iteam-consulting/watch-me-load)
+---
 Provides a client side navigation loading indicator similar to the Github indicator.
 
 ## Usage
