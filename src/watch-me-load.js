@@ -54,6 +54,10 @@ class WatchMeLoad {
         'Please provide a valid color in string representation');
     }
 
+    if (this.tickId) {
+      clearTimeout(this.tickId);
+    }
+
     const bg = tinycoloy(backgroundColor);
 
     // Set styles and kick off the tiemout
