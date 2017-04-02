@@ -1,11 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/watch-me-load.js',
+  entry: './sample/app/index.js',
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'public'),
   },
+  devtool: 'source-map',
   module: {
     loaders: [
       {test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/},
